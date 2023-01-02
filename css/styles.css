@@ -141,6 +141,7 @@ ul {
 /*Страница Портфолио*/
 
 .filters-item-btn {
+  font-family: inherit;
   font-weight: 500;
   letter-spacing: 0.04em;
   color: #4d5ae5;
