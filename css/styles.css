@@ -1,0 +1,150 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  line-height: 1.5;
+  color: #2e2f42;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/*Шапка*/
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  line-height: 1.33;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.logo-web {
+  color: #4d5ae5;
+}
+
+.navigation-link {
+  font-weight: 500;
+  color: inherit;
+}
+
+.navigation-link:hover,
+.navigation-link:focus {
+  color: #434455;
+}
+
+.navigation-link:active {
+  color: #4d5ae5;
+}
+
+.address-item-link {
+  font-style: normal;
+  color: #434455;
+}
+
+.address-item-link:hover,
+.address-item-link:focus {
+  color: #4d5ae5;
+}
+
+/*Секция герой*/
+
+.hero {
+  color: #ffffff;
+  background: #2e2f42;
+}
+
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+}
+
+.hero-btn {
+  font-family: inherit;
+  font-weight: 500;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  background: #4d5ae5;
+}
+
+/*Особенности*/
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+.features-item-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.features-item-text {
+  color: #434455;
+}
+
+/*Чем мы занимаемся*/
+
+.work-title {
+  ont-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+/*Наша команда*/
+
+.team {
+  text-align: center;
+  background: #f4f4fd;
+}
+
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-transform: capitalize;
+}
+
+.team-item-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.team-item-text {
+  color: #434455;
+}
+
+/*Подвал*/
+
+.footer {
+  background: #2e2f42;
+}
+
+.footer-logo {
+  color: #f4f4fd;
+}
+
+.footer-text {
+  color: #e7e9fc;
+}
