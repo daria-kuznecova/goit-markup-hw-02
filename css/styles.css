@@ -53,6 +53,8 @@ ul {
   color: #4d5ae5;
 }
 
+/*Страница Студия*/
+
 /*Секция герой*/
 
 .hero {
@@ -64,16 +66,15 @@ ul {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
-  text-align: center;
 }
 
 .hero-btn {
   font-family: inherit;
   font-weight: 500;
-  align-items: center;
   letter-spacing: 0.04em;
   color: #ffffff;
   background: #4d5ae5;
+  cursor: pointer;
 }
 
 /*Особенности*/
@@ -107,15 +108,17 @@ ul {
   ont-weight: 700;
   font-size: 36px;
   line-height: 1.11;
-  text-align: center;
   text-transform: capitalize;
 }
 
 /*Наша команда*/
 
 .team {
-  text-align: center;
   background: #f4f4fd;
+}
+
+.team-item {
+  background: #ffffff;
 }
 
 .team-title {
@@ -132,6 +135,32 @@ ul {
 }
 
 .team-item-text {
+  color: #434455;
+}
+
+/*Страница Портфолио*/
+
+.filters-item-btn {
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+  background: #e7e9fc;
+  cursor: pointer;
+}
+
+.filters-item-btn:hover,
+.filters-item-btn:focus {
+  color: #ffffff;
+  background: #404bbf;
+}
+
+.card-item-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.ard-item-text {
   color: #434455;
 }
 

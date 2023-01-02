@@ -15,109 +15,163 @@
   </head>
   <body>
     <!--Шапка профиля-->
-    <header>
-      <nav>
-        <a href="./index.html"><span>Web</span>Studio </a>
-        <ul>
-          <li><a href="./index.html">Studio</a></li>
-          <li><a href="./portfolio.html">Portfolio</a></li>
-          <li><a href="#">Contacts</a></li>
+    <header class="header">
+      <nav class="navigation">
+        <a href="./index.html" class="navigation-logo logo"
+          ><span class="logo-web">Web</span>Studio
+        </a>
+        <ul class="navigation-list">
+          <li><a href="./index.html" class="navigation-link">Studio</a></li>
+          <li>
+            <a href="./portfolio.html" class="navigation-link">Portfolio</a>
+          </li>
+          <li><a href="#" class="navigation-link">Contacts</a></li>
         </ul>
       </nav>
 
-      <address>
-        <ul>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+      <address class="address">
+        <ul class="address-list">
+          <li class="address-item">
+            <a href="mailto:info@devstudio.com" class="address-item-link"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="address-item">
+            <a href="tel:+110001111111" class="address-item-link"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
         </ul>
       </address>
     </header>
 
+    <!--Main-->
+
     <main>
       <!--Секция фильтры-->
-      <section>
-        <h1>Filtres</h1>
-        <ul>
-          <li><button type="button">All</button></li>
-          <li><button type="button">Web Site</button></li>
-          <li><button type="button">App</button></li>
-          <li><button type="button">Design</button></li>
-          <li><button type="button">Marketing</button></li>
+      <section class="filters">
+        <h1 class="visually-hidden">Filtres</h1>
+
+        <!--Кнопки фильтры-->
+        <ul class="filters-list">
+          <li class="filters-item">
+            <button class="filters-item-btn" type="button">All</button>
+          </li>
+          <li class="filters-item">
+            <button class="filters-item-btn" type="button">Web Site</button>
+          </li>
+          <li class="filters-item">
+            <button class="filters-item-btn" type="button">App</button>
+          </li>
+          <li class="filters-item">
+            <button class="filters-item-btn" type="button">Design</button>
+          </li>
+          <li class="filters-item">
+            <button class="filters-item-btn" type="button">Marketing</button>
+          </li>
         </ul>
-        <ul>
-          <li>
+
+        <!--Карточки Портфолио-->
+        <ul class="card-list">
+          <li class="card-item">
             <img
+              class="card-item-image"
               src="./images/image1.jpg"
               alt="Banking App Interface Concept"
               width="360"
             />
-            <h2>Banking App Interface Concept</h2>
-            <p>App</p>
+            <h2 class="card-item-title">Banking App Interface Concept</h2>
+            <p class="card-item-text">App</p>
           </li>
-          <li>
-            <p>
+          <li class="card-item">
+            <p class="card-item-text">
               14 Stylish and User-Friendly App Design Concepts · Task Manager
               App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud
               Storage App
             </p>
-            <h2>Cashless Payment</h2>
-            <p>Marketing</p>
+            <h2 class="card-item-title">Cashless Payment</h2>
+            <p class="card-item-text">Marketing</p>
           </li>
-          <li>
-            <img src="./images/image3.jpg" alt="Meditaion App" width="360" />
-            <h2>Meditaion App</h2>
-            <p>App</p>
-          </li>
-          <li>
-            <img src="./images/image4.jpg" alt="Taxi Service" width="360" />
-            <h2>Taxi Service</h2>
-            <p>Marketing</p>
-          </li>
-          <li>
+          <li class="card-item">
             <img
+              class="card-item-image"
+              src="./images/image3.jpg"
+              alt="Meditaion App"
+              width="360"
+            />
+            <h2 class="card-item-title">Meditaion App</h2>
+            <p class="card-item-text">App</p>
+          </li>
+          <li class="card-item">
+            <img
+              class="card-item-image"
+              src="./images/image4.jpg"
+              alt="Taxi Service"
+              width="360"
+            />
+            <h2 class="card-item-title">Taxi Service</h2>
+            <p class="card-item-text">Marketing</p>
+          </li>
+          <li class="card-item">
+            <img
+              class="card-item-image"
               src="./images/image5.jpg"
               alt="Screen Illustrations"
               width="360"
             />
-            <h2>Screen Illustrations</h2>
-            <p>Design</p>
+            <h2 class="card-item-title">Screen Illustrations</h2>
+            <p class="card-item-text">Design</p>
           </li>
-          <li>
+          <li class="card-item">
             <img
+              class="card-item-image"
               src="./images/image6.jpg"
               alt="Online Courses"
-              width="Marketing"
+              width="360"
             />
-            <h2>Online Courses</h2>
-            <p>Marketing</p>
+            <h2 class="card-item-title">Online Courses</h2>
+            <p class="card-item-text">Marketing</p>
           </li>
-          <li>
+          <li class="card-item">
             <img
+              class="card-item-image"
               src="images/image7.jpg"
               alt="Instagram Stories Concept"
               width="360"
             />
-            <h2>Instagram Stories Concept</h2>
-            <p>Design</p>
+            <h2 class="card-item-title">Instagram Stories Concept</h2>
+            <p class="card-item-text">Design</p>
           </li>
-          <li>
-            <img src="./images/image8.jpg" alt="Organic Food" width="360" />
-            <h2>Organic Food</h2>
-            <p>Web Site</p>
+          <li class="card-item">
+            <img
+              class="card-item-image"
+              src="./images/image8.jpg"
+              alt="Organic Food"
+              width="360"
+            />
+            <h2 class="card-item-title">Organic Food</h2>
+            <p class="card-item-text">Web Site</p>
           </li>
-          <li>
-            <img src="./images/image9.jpg" alt="Fresh Coffee" width="360" />
-            <h2>Fresh Coffee</h2>
-            <p>Web Site</p>
+          <li class="card-item">
+            <img
+              class="card-item-image"
+              src="./images/image9.jpg"
+              alt="Fresh Coffee"
+              width="360"
+            />
+            <h2 class="card-item-title">Fresh Coffee</h2>
+            <p class="card-item-text">Web Site</p>
           </li>
         </ul>
       </section>
     </main>
 
     <!--Подвал-->
-    <footer>
-      <a href="./index.html"><span>Web</span>Studio</a>
-      <p>
+    <footer class="footer">
+      <a class="footer-logo logo" href="./index.html"
+        ><span class="logo-web">Web</span>Studio</a
+      >
+      <p class="footer-text">
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
       </p>
